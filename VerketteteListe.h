@@ -1,0 +1,8 @@
+//
+// Created by vincent on 28.11.21.
+//
+
+#ifndef THREAD_VERKETTETELISTE_H
+#define THREAD_VERKETTETELISTE_H
+
+#endif //THREAD_VERKETTETELISTE_H

@@ -1,0 +1,1 @@
+/bin/gcc  -pthread -g CMakeFiles/Thread.dir/main.c.o CMakeFiles/Thread.dir/VerketteteListe.c.o CMakeFiles/Thread.dir/Thread.c.o -o Thread 
