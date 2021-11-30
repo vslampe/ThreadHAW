@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <pthread.h>
+#include "VerketteteListeTest.h"
 
 void *helloWorld(void *vptr);
 
 int main() {
-    printf("Hello, World!\n");
+    testeListe();
+ /*   printf("Hello, World!\n");
     const char *m1 = "Thread 1";
     const char *m2 = "Thread 2";
     pthread_t t1, t2;
@@ -13,8 +15,9 @@ int main() {
 
     pthread_join(t1, NULL);
     pthread_join(t2, NULL);
-    return 0;
+    return 0;*/
 }
+/*
 
 void *helloWorld(void *vptr) {
     char *pText = (char *) vptr;
@@ -24,4 +27,4 @@ void *helloWorld(void *vptr) {
 }
 void *control_thread(void * pArgs){
         while(0)
-}
+}*/

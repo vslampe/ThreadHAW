@@ -10,7 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/vincent/CLionProjects/Thread/Thread.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/Thread.c.o"
   "/home/vincent/CLionProjects/Thread/VerketteteListe.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/VerketteteListe.c.o"
+  "/home/vincent/CLionProjects/Thread/VerketteteListeTest.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/VerketteteListeTest.c.o"
+  "/home/vincent/CLionProjects/Thread/Warteschlange.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/Warteschlange.c.o"
   "/home/vincent/CLionProjects/Thread/main.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/main.c.o"
+  "/home/vincent/CLionProjects/Thread/utils.c" "/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles/Thread.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

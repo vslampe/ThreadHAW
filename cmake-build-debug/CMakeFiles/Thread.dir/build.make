@@ -79,9 +79,22 @@ CMakeFiles/Thread.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Thread.dir/main.c.s"
 	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vincent/CLionProjects/Thread/main.c -o CMakeFiles/Thread.dir/main.c.s
 
+CMakeFiles/Thread.dir/VerketteteListeTest.c.o: CMakeFiles/Thread.dir/flags.make
+CMakeFiles/Thread.dir/VerketteteListeTest.c.o: ../VerketteteListeTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Thread.dir/VerketteteListeTest.c.o"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Thread.dir/VerketteteListeTest.c.o -c /home/vincent/CLionProjects/Thread/VerketteteListeTest.c
+
+CMakeFiles/Thread.dir/VerketteteListeTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Thread.dir/VerketteteListeTest.c.i"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vincent/CLionProjects/Thread/VerketteteListeTest.c > CMakeFiles/Thread.dir/VerketteteListeTest.c.i
+
+CMakeFiles/Thread.dir/VerketteteListeTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Thread.dir/VerketteteListeTest.c.s"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vincent/CLionProjects/Thread/VerketteteListeTest.c -o CMakeFiles/Thread.dir/VerketteteListeTest.c.s
+
 CMakeFiles/Thread.dir/VerketteteListe.c.o: CMakeFiles/Thread.dir/flags.make
 CMakeFiles/Thread.dir/VerketteteListe.c.o: ../VerketteteListe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Thread.dir/VerketteteListe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Thread.dir/VerketteteListe.c.o"
 	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Thread.dir/VerketteteListe.c.o -c /home/vincent/CLionProjects/Thread/VerketteteListe.c
 
 CMakeFiles/Thread.dir/VerketteteListe.c.i: cmake_force
@@ -94,7 +107,7 @@ CMakeFiles/Thread.dir/VerketteteListe.c.s: cmake_force
 
 CMakeFiles/Thread.dir/Thread.c.o: CMakeFiles/Thread.dir/flags.make
 CMakeFiles/Thread.dir/Thread.c.o: ../Thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Thread.dir/Thread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Thread.dir/Thread.c.o"
 	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Thread.dir/Thread.c.o -c /home/vincent/CLionProjects/Thread/Thread.c
 
 CMakeFiles/Thread.dir/Thread.c.i: cmake_force
@@ -105,21 +118,53 @@ CMakeFiles/Thread.dir/Thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Thread.dir/Thread.c.s"
 	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vincent/CLionProjects/Thread/Thread.c -o CMakeFiles/Thread.dir/Thread.c.s
 
+CMakeFiles/Thread.dir/utils.c.o: CMakeFiles/Thread.dir/flags.make
+CMakeFiles/Thread.dir/utils.c.o: ../utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Thread.dir/utils.c.o"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Thread.dir/utils.c.o -c /home/vincent/CLionProjects/Thread/utils.c
+
+CMakeFiles/Thread.dir/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Thread.dir/utils.c.i"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vincent/CLionProjects/Thread/utils.c > CMakeFiles/Thread.dir/utils.c.i
+
+CMakeFiles/Thread.dir/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Thread.dir/utils.c.s"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vincent/CLionProjects/Thread/utils.c -o CMakeFiles/Thread.dir/utils.c.s
+
+CMakeFiles/Thread.dir/Warteschlange.c.o: CMakeFiles/Thread.dir/flags.make
+CMakeFiles/Thread.dir/Warteschlange.c.o: ../Warteschlange.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Thread.dir/Warteschlange.c.o"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Thread.dir/Warteschlange.c.o -c /home/vincent/CLionProjects/Thread/Warteschlange.c
+
+CMakeFiles/Thread.dir/Warteschlange.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Thread.dir/Warteschlange.c.i"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vincent/CLionProjects/Thread/Warteschlange.c > CMakeFiles/Thread.dir/Warteschlange.c.i
+
+CMakeFiles/Thread.dir/Warteschlange.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Thread.dir/Warteschlange.c.s"
+	/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vincent/CLionProjects/Thread/Warteschlange.c -o CMakeFiles/Thread.dir/Warteschlange.c.s
+
 # Object files for target Thread
 Thread_OBJECTS = \
 "CMakeFiles/Thread.dir/main.c.o" \
+"CMakeFiles/Thread.dir/VerketteteListeTest.c.o" \
 "CMakeFiles/Thread.dir/VerketteteListe.c.o" \
-"CMakeFiles/Thread.dir/Thread.c.o"
+"CMakeFiles/Thread.dir/Thread.c.o" \
+"CMakeFiles/Thread.dir/utils.c.o" \
+"CMakeFiles/Thread.dir/Warteschlange.c.o"
 
 # External object files for target Thread
 Thread_EXTERNAL_OBJECTS =
 
 Thread: CMakeFiles/Thread.dir/main.c.o
+Thread: CMakeFiles/Thread.dir/VerketteteListeTest.c.o
 Thread: CMakeFiles/Thread.dir/VerketteteListe.c.o
 Thread: CMakeFiles/Thread.dir/Thread.c.o
+Thread: CMakeFiles/Thread.dir/utils.c.o
+Thread: CMakeFiles/Thread.dir/Warteschlange.c.o
 Thread: CMakeFiles/Thread.dir/build.make
 Thread: CMakeFiles/Thread.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Thread"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thread.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,10 +1,12 @@
 #include <time.h>
 #include <errno.h>
+#include <stdlib.h>
+
 //
 // Created by vincent on 28.11.21.
 //
 int get_random_int(int min_number, int max_number){
-    return rand() % (max_number + 1 - min_number) + min_number
+    return rand() % (max_number + 1 - min_number) + min_number;
 }
 
 /* msleep(): Sleep for the requested number of milliseconds. */

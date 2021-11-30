@@ -91,7 +91,22 @@
 		<Unit filename="/home/vincent/CLionProjects/Thread/VerketteteListe.h">
 			<Option target="Thread"/>
 		</Unit>
+		<Unit filename="/home/vincent/CLionProjects/Thread/VerketteteListeTest.c">
+			<Option target="Thread"/>
+		</Unit>
+		<Unit filename="/home/vincent/CLionProjects/Thread/VerketteteListeTest.h">
+			<Option target="Thread"/>
+		</Unit>
+		<Unit filename="/home/vincent/CLionProjects/Thread/Warteschlange.c">
+			<Option target="Thread"/>
+		</Unit>
+		<Unit filename="/home/vincent/CLionProjects/Thread/Warteschlange.h">
+			<Option target="Thread"/>
+		</Unit>
 		<Unit filename="/home/vincent/CLionProjects/Thread/main.c">
+			<Option target="Thread"/>
+		</Unit>
+		<Unit filename="/home/vincent/CLionProjects/Thread/utils.c">
 			<Option target="Thread"/>
 		</Unit>
 		<Unit filename="/home/vincent/CLionProjects/Thread/utils.h">

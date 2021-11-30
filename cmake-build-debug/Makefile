@@ -177,6 +177,54 @@ VerketteteListe.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/VerketteteListe.c.s
 .PHONY : VerketteteListe.c.s
 
+VerketteteListeTest.o: VerketteteListeTest.c.o
+.PHONY : VerketteteListeTest.o
+
+# target to build an object file
+VerketteteListeTest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/VerketteteListeTest.c.o
+.PHONY : VerketteteListeTest.c.o
+
+VerketteteListeTest.i: VerketteteListeTest.c.i
+.PHONY : VerketteteListeTest.i
+
+# target to preprocess a source file
+VerketteteListeTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/VerketteteListeTest.c.i
+.PHONY : VerketteteListeTest.c.i
+
+VerketteteListeTest.s: VerketteteListeTest.c.s
+.PHONY : VerketteteListeTest.s
+
+# target to generate assembly for a file
+VerketteteListeTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/VerketteteListeTest.c.s
+.PHONY : VerketteteListeTest.c.s
+
+Warteschlange.o: Warteschlange.c.o
+.PHONY : Warteschlange.o
+
+# target to build an object file
+Warteschlange.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/Warteschlange.c.o
+.PHONY : Warteschlange.c.o
+
+Warteschlange.i: Warteschlange.c.i
+.PHONY : Warteschlange.i
+
+# target to preprocess a source file
+Warteschlange.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/Warteschlange.c.i
+.PHONY : Warteschlange.c.i
+
+Warteschlange.s: Warteschlange.c.s
+.PHONY : Warteschlange.s
+
+# target to generate assembly for a file
+Warteschlange.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/Warteschlange.c.s
+.PHONY : Warteschlange.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -201,6 +249,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/main.c.s
 .PHONY : main.c.s
 
+utils.o: utils.c.o
+.PHONY : utils.o
+
+# target to build an object file
+utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/utils.c.o
+.PHONY : utils.c.o
+
+utils.i: utils.c.i
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/utils.c.i
+.PHONY : utils.c.i
+
+utils.s: utils.c.s
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/utils.c.s
+.PHONY : utils.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,9 +288,18 @@ help:
 	@echo "... VerketteteListe.o"
 	@echo "... VerketteteListe.i"
 	@echo "... VerketteteListe.s"
+	@echo "... VerketteteListeTest.o"
+	@echo "... VerketteteListeTest.i"
+	@echo "... VerketteteListeTest.s"
+	@echo "... Warteschlange.o"
+	@echo "... Warteschlange.i"
+	@echo "... Warteschlange.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 

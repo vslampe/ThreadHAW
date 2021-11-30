@@ -2,9 +2,11 @@
 // Created by vincent on 28.11.21.
 //
 #include <pthread.h>
+#include "Thread.h"
 #include "Config.h"
 #include "utils.h"
 #include "Warteschlange.h"
+
 /**
  * Diese Threads erzeugen kontinuierlich neue Ar-
 beitspakete mit zufälligen Paketnummern im Bereich 0 bis 99. Existiert in der
@@ -20,12 +22,7 @@ so sollen sie sich beenden.
 void *producer_thread(void *vptr){
     while (1) {
         int r_int = get_random_int(0, 99);
-        if (qmax_erreicht()) {
-            //TODO: In den Status blocked wechseln
-        }
-        if (!paket_existiert(r_int)) {
-            arbeitspaket_einfuegen(r_int);
-        }
+        arbeitspaket_einfuegen(r_int);
         msleep(200);
     }
 }

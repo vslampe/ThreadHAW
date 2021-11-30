@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/vincent/CLionProjects/Thread/main.c
+/home/vincent/CLionProjects/Thread/VerketteteListe.c
 stdio.h
 -
-pthread.h
+stdlib.h
 -
+
+/home/vincent/CLionProjects/Thread/VerketteteListe.h
+
+/home/vincent/CLionProjects/Thread/VerketteteListeTest.c
+VerketteteListeTest.h
+/home/vincent/CLionProjects/Thread/VerketteteListeTest.h
+VerketteteListe.h
+/home/vincent/CLionProjects/Thread/VerketteteListe.h
+
+/home/vincent/CLionProjects/Thread/VerketteteListeTest.h
 

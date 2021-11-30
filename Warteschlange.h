@@ -12,8 +12,7 @@
  *
  * @return
  */
-int paket_existiert(int);
-int qmax_erreicht();
+
 void arbeitspaket_einfuegen(int);
 int arbeitspaket_nehmen();
 int warteschlange_ist_leer();

@@ -81,12 +81,12 @@ clean: CMakeFiles/Thread.dir/clean
 CMakeFiles/Thread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread.dir/build.make CMakeFiles/Thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Thread"
 .PHONY : CMakeFiles/Thread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Thread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent/CLionProjects/Thread/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Thread.dir/rule
